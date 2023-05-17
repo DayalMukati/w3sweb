@@ -4,6 +4,7 @@ import Link from "next/link";
 import Layout from "../components/Layout/Layout";
 import BrandSlider2 from "./../components/sliders/Brand2";
 import CategoryTab2 from "../components/elements/CategoryTab2";
+import CategorySlider1 from "../components/sliders/Category";
 
 export default function Home() {
   return (
@@ -106,6 +107,88 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
+                <section className="section-box mt-70 mb-40">
+                        <div className="container">
+                            <div className="text-start">
+                                <h2 className="section-title mb-10 wow animate__animated animate__fadeInUp">How It Works</h2>
+                                <p className="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Just via some simple steps, you will find be able to upgrad yourself to Web3!</p>
+                            </div>
+                            <div className="mt-70">
+                                <div className="row">
+                                    <div className="col-lg-4">
+                                        <div className="box-step step-1">
+                                            <h1 className="number-element">1</h1>
+                                            <h4 className="mb-20">
+                                                Register and Learn
+                                                <br className="d-none d-lg-block" />
+                                                Web3 Tech
+                                            </h4>
+                                            <p className="font-lg color-text-paragraph-2">
+                                                Be part of our learning series,
+                                                <br className="d-none d-lg-block" />
+                                                Masterclasses, Workshops and Fellowships{" "}
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4">
+                                        <div className="box-step step-2">
+                                            <h1 className="number-element">2</h1>
+                                            <h4 className="mb-20">
+                                                Build & Deploy dApps
+                                                <br className="d-none d-lg-block" />
+                                                Get Certified
+                                            </h4>
+                                            <p className="font-lg color-text-paragraph-2">
+                                                build the dapps and deploy them on chains,
+                                                <br className="d-none d-lg-block" />
+                                                evaluate yourself and get NFT based certificates{" "}
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4">
+                                        <div className="box-step">
+                                            <h1 className="number-element">3</h1>
+                                            <h4 className="mb-20">
+                                                Find Your Next Job
+                                                <br className="d-none d-lg-block" />
+                                                in Web3 ecosystem
+                                            </h4>
+                                            <p className="font-lg color-text-paragraph-2">
+                                                Get access to Job Portal,
+                                                <br className="d-none d-lg-block" />
+                                                Where Top Web3 companies are waiting for you{" "}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="mt-50 text-center">
+                                <a className="btn btn-default" href="#events">Get Started</a>
+                            </div>
+                        </div>
+                    </section>
+ 
+
+                    <section id="events" className="section-box mt-50 mb-30 bg-brand-2 pt-60 pb-60">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-xl-5">
+                                    <div className="pt-70">
+                                        <h2 className="color-black mb-20">Explore Our Learning Series</h2>
+                                        <p className="color-black mb-30">Search and connect with the right candidates faster. Tell us what you are looking for and we will get to work for you.</p>
+                                        <div className="mt-20">
+                                            <a className="btn btn-brand-1 btn-icon-more hover-up">Explore</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-7">
+                                    <div className="box-swiper mt-50 layout-brand-1">
+                                        <CategorySlider1 />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
         <div className="section-box mb-30">
           <div className="container">
             <div className="box-we-hiring">

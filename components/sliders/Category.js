@@ -4,69 +4,42 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 SwiperCore.use([Navigation]);
 
-import "swiper/css/grid";
-import { Grid } from "swiper";
-
 const data = [
     {
-        icon: "marketing.svg",
-        title: "Marketing & Sale",
-        count: 1526
+        img: "img-big1.png",
+        title: "MasterClasses",
+        count: 3
     },
     {
-        icon: "customer.svg",
-        title: "Customer Help",
-        count: 185
+        img: "img-big2.png",
+        title: "WorkShops",
+        count: 35
     },
     {
-        icon: "finance.svg",
-        title: "Finance",
-        count: 168
+        img: "img-big3.png",
+        title: "Courses",
+        count: 20
     },
     {
-        icon: "lightning.svg",
-        title: "Software",
-        count: 1856
+        img: "img-big1.png",
+        title: "Hackathon",
+        count: 15
     },
     {
-        icon: "human.svg",
-        title: "Human Resource",
-        count: 165
-    },
-    {
-        icon: "management.svg",
-        title: "Management",
-        count: 965
-    },
-    {
-        icon: "retail.svg",
-        title: "Retail & Products",
-        count: 563
-    },
-    {
-        icon: "security.svg",
-        title: "Security Analyst",
-        count: 254
-    },
-    {
-        icon: "content.svg",
-        title: "Content Writer",
-        count: 142
-    },
-    {
-        icon: "research.svg",
-        title: "Market Research",
-        count: 532
+        img: "img-big2.png",
+        title: "Fellowships",
+        count: 10
     }
 ];
 
-const CategorySlider = () => {
+const CategorySlider4 = () => {
     return (
         <>
-            <div className="swiper-container swiper-group-5">
+            <div className="swiper-container swiper-group-3-explore mh-none swiper">
                 <Swiper
-                    slidesPerView={5}
+                    slidesPerView={3}
                     spaceBetween={30}
+                    loop={true}
                     navigation={{
                         prevEl: ".swiper-button-prev",
                         nextEl: ".swiper-button-next"
@@ -85,35 +58,34 @@ const CategorySlider = () => {
                             spaceBetween: 30
                         },
                         991: {
-                            slidesPerView: 3,
+                            slidesPerView: 2,
                             spaceBetween: 30
                         },
                         1199: {
-                            slidesPerView: 5,
+                            slidesPerView: 3,
                             spaceBetween: 30
                         }
                     }}
-                    className="swiper-wrapper pb-70 pt-5 swiper-grid-jobobx"
+                    className="swiper-wrapper pb-70 pt-5"
                 >
                     {data.map((item, i) => (
                         <SwiperSlide key={i}>
                             <div className="swiper-slide hover-up">
-                                <Link legacyBehavior href="/jobs-list">
-                                    <a>
-                                        <div className="item-logo">
-                                            <div className="image-left">
-                                                <img alt="jobBox" src={`assets/imgs/page/homepage1/${item.icon}`} />
+                                <div className="card-grid-5 card-category hover-up" style={{ backgroundImage: `url(assets/imgs/page/homepage2/${item.img})` }}>
+                                    <Link legacyBehavior href="/learn">
+                                        <a>
+                                            <div className="box-cover-img">
+                                                <div className="content-bottom">
+                                                    <h6 className="color-white mb-5">{item.title}</h6>
+                                                    <p className="color-white font-xs">
+                                                        <span>{item.count}</span>
+                                                        <span> Available</span>
+                                                    </p>
+                                                </div>
                                             </div>
-                                            <div className="text-info-right">
-                                                <h4>{item.title}</h4>
-                                                <p className="font-xs">
-                                                    {item.count}
-                                                    <span> Jobs Available</span>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </Link>
+                                        </a>
+                                    </Link>
+                                </div>
                             </div>
                         </SwiperSlide>
                     ))}
@@ -126,4 +98,4 @@ const CategorySlider = () => {
     );
 };
 
-export default CategorySlider;
+export default CategorySlider4;
