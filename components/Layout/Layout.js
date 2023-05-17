@@ -22,6 +22,7 @@ const Layout = ({ children }) => {
     }
     return (
         <>
+       
         <PageHead></PageHead>
        
             <div className="body-overlay-1" onClick={handleRemove} />

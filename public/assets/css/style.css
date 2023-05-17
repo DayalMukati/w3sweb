@@ -997,8 +997,8 @@ h6,
 }
 
 .btn-apply-now {
-  background-color: #E0E6F7;
-  color: #EFC200;
+  background-color: #EFC200;
+  color: #000000;
   padding: 12px 10px;
   min-width: 95px;
   border-radius: 4px;
@@ -1008,7 +1008,7 @@ h6,
 
 .btn-apply {
   background-color: #EFC200;
-  color: #ffffff;
+  color: #0b0b0b;
   padding: 12px 20px;
   border-radius: 4px;
 }
@@ -1885,19 +1885,19 @@ label {
 }
 
 .card-time {
-  font-size: 12px;
-  color: #A0ABB8;
+  font-size: 14px;
+  color: #0c0d0d;
   display: inline-block;
   padding: 0px 15px 0px 15px;
-  background: url(../imgs/template/icons/time.svg) no-repeat 0px 5px;
+  background: url(../imgs/template/icons/time.svg) no-repeat 0px 7px;
 }
 
 .card-briefcase {
-  font-size: 12px;
-  color: #A0ABB8;
+  font-size: 14px;
+  color: #0c0d0d;
   display: inline-block;
   padding: 0px 15px 0px 15px;
-  background: url(../imgs/template/icons/briefcase.svg) no-repeat 0px 6px;
+  background: url(../imgs/template/icons/briefcase.svg) no-repeat 0px 7px;
 }
 
 .card-location {
@@ -1926,7 +1926,7 @@ label {
   margin-left: 0;
 }
 .card-grid-2 .btn-apply-now {
-  color: #EFC200;
+  color: #000000;
 }
 .card-grid-2:hover {
   border-color: #B4C0E0;
@@ -2133,7 +2133,8 @@ label {
   position: relative;
 }
 .card-grid-2 .card-grid-2-image-left .image-box {
-  min-width: 52px;
+  min-width:20px;
+  max-width: 100px;
   padding-right: 15px;
 }
 .card-grid-2 .card-grid-2-image-left .right-info .name-job {
@@ -2150,8 +2151,8 @@ label {
   background: url(../imgs/template/icons/location.svg) no-repeat 0px 5px;
   display: inline-block;
   padding: 0px 0px 0px 20px;
-  font-size: 12px;
-  color: #A0ABB8;
+  font-size: 14px;
+  color: #000000;
 }
 
 .card-bg-white .card-grid-2 {
@@ -6980,6 +6981,9 @@ ul li:last-child .card-list-4 {
 
 .float-right {
   float: right;
+}
+.float-center{
+  position: relative;;
 }
 
 .list-checkbox {
