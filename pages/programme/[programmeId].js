@@ -62,6 +62,6 @@ export default function Event({programme}) {
     
         return {
             paths,
-            fallback: true
+            fallback: false
         }
     }
