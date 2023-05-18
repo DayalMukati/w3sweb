@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="footer-col-1 col-md-3 col-sm-12">
                         
-                        <Link legacyBehavior href="/"><a><img alt="Let's Connect" src="assets/imgs/template/logo.svg" /></a></Link>
+                        <Link legacyBehavior href="/"><a><img alt="Let's Connect" src="/assets/imgs/template/logo.svg" /></a></Link>
                         <div className="mt-20 mb-20 font-xs color-text-paragraph-2">Upgrade yourself to Web3.</div>
                         <div className="footer-social">
                             <a className="icon-socials icon-linkedin" href="https://www.linkedin.com/company/web3school-in/?viewAsMember=true" />

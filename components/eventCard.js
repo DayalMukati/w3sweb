@@ -1,38 +1,38 @@
 import Link from 'next/link'
 import { baseUrl } from '../util/utils'
 
-export function EventCard({ event }) {
-    console.log(event, "djskfhjfhdjshfjh")
+export function EventCard({ programme }) {
+    console.log(programme.id, "eventid")
 	return (
         
-		<Link legacyBehavior href={`/events/${event.id}`}>
+		<Link legacyBehavior href={`/programme/${programme.attributes.slug}`}>
 			<div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
                                                 <div className="card-grid-2 hover-up">
                                                     <div className="card-grid-2-image-left">
                                                         <span className="flash" />
                                                         <div className="image-box">
-                                                            <img src={event.attributes.cover_url} alt="jobBox" />
+                                                            <img src={programme.attributes.cover_url} alt="Web3School" />
                                                         </div>
                                                         <div className="right-info">
-                                                            <Link legacyBehavior href="company-details">
-                                                                <a className="name-job">{event.attributes.title}</a>
+                                                            <Link legacyBehavior href={`/programme/${programme.attributes.slug}`}>
+                                                                <a className="name-job">{programme.attributes.title}</a>
                                                             </Link>
-                                                            <span className="location-small">{event.attributes.mode}</span>
+                                                            <span className="location-small">{programme.attributes.mode}</span>
                                                         </div>
                                                     </div>
                                                     <div className="card-block-info">
                                                         <h6>
-                                                            <Link legacyBehavior href="/job-details">
-                                                                <a>on {event.attributes.framework}</a>
+                                                            <Link legacyBehavior href={`/programme/${programme.attributes.slug}`}>
+                                                                <a>By {programme.attributes.platform} Experts</a>
                                                             </Link>
                                                         </h6>
                                                         <div className="mt-5">
-                                                            <span className="card-briefcase">Fulltime</span>
+                                                            {/* <span className="card-briefcase">Fulltime</span> */}
                                                             <span className="card-time">
-                                                                {event.attributes.duration}<span> {}</span>
+                                                                Duration {programme.attributes.duration}<span> {}</span>
                                                             </span>
                                                         </div>
-                                                        <p className="font-sm color-text-paragraph mt-15">{event.attributes.overview}</p>
+                                                        <p className="font-sm color-text-paragraph mt-15">{programme.attributes.overview}</p>
                                                         {/* <div className="mt-30">
                                                             <Link legacyBehavior href="/jobs-grid">
                                                                 <a className="btn btn-grey-small mr-5">Adobe XD</a>

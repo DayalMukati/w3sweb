@@ -20,32 +20,32 @@ const BrandSlider3 = () => {
                 >
                     <SwiperSlide>
                         <a href="#">
-                            <img src="assets/imgs/page/homepage3/microsoft.svg" alt="jobBox" />
+                            <img src="assets/imgs/page/homepage3/microsoft.svg" alt="Web3School" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
                         <a href="#">
-                            <img src="assets/imgs/page/homepage3/sony.svg" alt="jobBox" />
+                            <img src="assets/imgs/page/homepage3/sony.svg" alt="Web3School" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
                         <a href="#">
-                            <img src="assets/imgs/page/homepage3/acer.svg" alt="jobBox" />
+                            <img src="assets/imgs/page/homepage3/acer.svg" alt="Web3School" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
                         <a href="#">
-                            <img src="assets/imgs/page/homepage3/nokia.svg" alt="jobBox" />
+                            <img src="assets/imgs/page/homepage3/nokia.svg" alt="Web3School" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
                         <a href="#">
-                            <img src="assets/imgs/page/homepage3/casio.svg" alt="jobBox" />
+                            <img src="assets/imgs/page/homepage3/casio.svg" alt="Web3School" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
                         <a href="#">
-                            <img src="assets/imgs/page/homepage3/dell.svg" alt="jobBox" />
+                            <img src="assets/imgs/page/homepage3/dell.svg" alt="Web3School" />
                         </a>
                     </SwiperSlide>
                 </Swiper>

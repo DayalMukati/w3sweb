@@ -12,22 +12,22 @@ const CategoryTab2 = () => {
             <div className="list-tabs mt-40  text-start">
                 {/* <ul className="nav nav-tabs" role="tablist">
                     <li>
-                        <a className={active === 1 ? "active" : ""} onClick={() => handleOnClick(1)}><img src="/assets/imgs/page/homepage1/management.svg" alt="jobBox" /> Management</a>
+                        <a className={active === 1 ? "active" : ""} onClick={() => handleOnClick(1)}><img src="/assets/imgs/page/homepage1/management.svg" alt="Web3School" /> Management</a>
                         </li>
                     <li>
-                        <a className={active === 2 ? "active" : ""} onClick={() => handleOnClick(2)}><img src="/assets/imgs/page/homepage1/marketing.svg" alt="jobBox" /> Marketing &amp; Sale</a>
+                        <a className={active === 2 ? "active" : ""} onClick={() => handleOnClick(2)}><img src="/assets/imgs/page/homepage1/marketing.svg" alt="Web3School" /> Marketing &amp; Sale</a>
                         </li>
                     <li>
-                        <a className={active === 3 ? "active" : ""} onClick={() => handleOnClick(3)} ><img src="/assets/imgs/page/homepage1/finance.svg" alt="jobBox" /> Finance</a>
+                        <a className={active === 3 ? "active" : ""} onClick={() => handleOnClick(3)} ><img src="/assets/imgs/page/homepage1/finance.svg" alt="Web3School" /> Finance</a>
                         </li>
                     <li>
-                        <a className={active === 4 ? "active" : ""} onClick={() => handleOnClick(4)} ><img src="/assets/imgs/page/homepage1/human.svg" alt="jobBox" /> Human Resource</a>
+                        <a className={active === 4 ? "active" : ""} onClick={() => handleOnClick(4)} ><img src="/assets/imgs/page/homepage1/human.svg" alt="Web3School" /> Human Resource</a>
                         </li>
                     <li>
-                        <a className={active === 5 ? "active" : ""} onClick={() => handleOnClick(5)} ><img src="/assets/imgs/page/homepage1/retail.svg" alt="jobBox" /> Retail &amp; Products</a>
+                        <a className={active === 5 ? "active" : ""} onClick={() => handleOnClick(5)} ><img src="/assets/imgs/page/homepage1/retail.svg" alt="Web3School" /> Retail &amp; Products</a>
                         </li>
                     <li>
-                        <a className={active === 6 ? "active" : ""} onClick={() => handleOnClick(6)} ><img src="/assets/imgs/page/homepage1/content.svg" alt="jobBox" /> Content Writer</a>
+                        <a className={active === 6 ? "active" : ""} onClick={() => handleOnClick(6)} ><img src="/assets/imgs/page/homepage1/content.svg" alt="Web3School" /> Content Writer</a>
                         </li>
                 </ul> */}
             </div>
@@ -38,7 +38,7 @@ const CategoryTab2 = () => {
                             <div className="card-grid-2 grid-bd-16 hover-up">
                                 <div className="card-grid-2-image"><span className="lbl-hot bg-green"><span>Beginner</span></span>
                                     <div className="image-box">
-                                        <figure><img src="assets/imgs/page/homepage2/img1.png" alt="jobBox" /></figure>
+                                        <figure><img src="assets/imgs/page/homepage2/img1.png" alt="Web3School" /></figure>
                                     </div>
                                 </div>
                                 <div className="card-block-info">
@@ -92,7 +92,7 @@ const CategoryTab2 = () => {
                             <div className="card-grid-2 grid-bd-16 hover-up">
                                 <div className="card-grid-2-image"><span className="lbl-hot"><span>Full time</span></span>
                                     <div className="image-box">
-                                        <figure><img src="assets/imgs/page/homepage2/img3.png" alt="jobBox" /></figure>
+                                        <figure><img src="assets/imgs/page/homepage2/img3.png" alt="Web3School" /></figure>
                                     </div>
                                 </div>
                                 <div className="card-block-info">
@@ -121,7 +121,7 @@ const CategoryTab2 = () => {
                             <div className="card-grid-2 grid-bd-16 hover-up">
                                 <div className="card-grid-2-image"><span className="lbl-hot"><span>Full time</span></span>
                                     <div className="image-box">
-                                        <figure><img src="assets/imgs/page/homepage2/img4.png" alt="jobBox" /></figure>
+                                        <figure><img src="assets/imgs/page/homepage2/img4.png" alt="Web3School" /></figure>
                                     </div>
                                 </div>
                                 <div className="card-block-info">
@@ -148,7 +148,7 @@ const CategoryTab2 = () => {
                             <div className="card-grid-2 grid-bd-16 hover-up">
                                 <div className="card-grid-2-image"><span className="lbl-hot"><span>Full time</span></span>
                                     <div className="image-box">
-                                        <figure><img src="assets/imgs/page/homepage2/img5.png" alt="jobBox" /></figure>
+                                        <figure><img src="assets/imgs/page/homepage2/img5.png" alt="Web3School" /></figure>
                                     </div>
                                 </div>
                                 <div className="card-block-info">
@@ -173,7 +173,7 @@ const CategoryTab2 = () => {
                             <div className="card-grid-2 grid-bd-16 hover-up">
                                 <div className="card-grid-2-image"><span className="lbl-hot"><span>Full time</span></span>
                                     <div className="image-box">
-                                        <figure><img src="assets/imgs/page/homepage2/img6.png" alt="jobBox" /></figure>
+                                        <figure><img src="assets/imgs/page/homepage2/img6.png" alt="Web3School" /></figure>
                                     </div>
                                 </div>
                                 <div className="card-block-info">

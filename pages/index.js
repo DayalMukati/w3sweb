@@ -77,8 +77,8 @@ export default function Home() {
                         <div className="row">
                             <div className="col-lg-6 col-sm-12">
                                 <div className="box-image-job">
-                                    <img className="img-job-1" alt="jobBox" src="assets/imgs/page/about-bg1.png" />
-                                    {/* <img className="img-job-2" alt="jobBox" src="assets/imgs/page/homepage1/controlcard.png" /> */}
+                                    <img className="img-job-1" alt="Web3School" src="assets/imgs/page/about-bg1.png" />
+                                    {/* <img className="img-job-2" alt="Web3School" src="assets/imgs/page/homepage1/controlcard.png" /> */}
                                     <figure className="wow animate__animated animate__fadeIn">
                                         <img alt="web3school" src="assets/imgs/page/about-bg.svg" />
                                     </figure>

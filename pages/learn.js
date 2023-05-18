@@ -37,8 +37,8 @@ export default function Learn({ data }) {
                   <div className="content-page">
                     <div className="box-filters-job">
                       <div className="row">
-                        {data.map((event) => (
-                          <EventCard key={event.title} event={event} />
+                        {data.map((programme) => (
+                          <EventCard key={programme.title} programme={programme} />
                         ))}
                       </div>
                     </div>
@@ -535,9 +535,9 @@ export default function Learn({ data }) {
 }
 
 export async function getServerSideProps() {
-  const events = await fetchQuery("events");
-  const data = events.data;
-  console.log(data, "events");
+  const programmes = await fetchQuery("programmes");
+  console.log(programmes, "promess")
+  const data = programmes.data;
   return {
     props: {
       data,

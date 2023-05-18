@@ -20,52 +20,52 @@ const BrandSlider = () => {
                 >
                     <SwiperSlide>
                         <a href="#">
-                            <img src="assets/imgs/slider/logo/microsoft.svg" alt="jobBox" />
+                            <img src="assets/imgs/slider/logo/microsoft.svg" alt="Web3School" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
                         <a href="#">
-                            <img src="assets/imgs/slider/logo/sony.svg" alt="jobBox" />
+                            <img src="assets/imgs/slider/logo/sony.svg" alt="Web3School" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
                         <a href="#">
-                            <img src="assets/imgs/slider/logo/acer.svg" alt="jobBox" />
+                            <img src="assets/imgs/slider/logo/acer.svg" alt="Web3School" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
                         <a href="#">
-                            <img src="assets/imgs/slider/logo/nokia.svg" alt="jobBox" />
+                            <img src="assets/imgs/slider/logo/nokia.svg" alt="Web3School" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
                         <a href="#">
-                            <img src="assets/imgs/slider/logo/assus.svg" alt="jobBox" />
+                            <img src="assets/imgs/slider/logo/assus.svg" alt="Web3School" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
                         <a href="#">
-                            <img src="assets/imgs/slider/logo/casio.svg" alt="jobBox" />
+                            <img src="assets/imgs/slider/logo/casio.svg" alt="Web3School" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
                         <a href="#">
-                            <img src="assets/imgs/slider/logo/dell.svg" alt="jobBox" />
+                            <img src="assets/imgs/slider/logo/dell.svg" alt="Web3School" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
                         <a href="#">
-                            <img src="assets/imgs/slider/logo/panasonic.svg" alt="jobBox" />
+                            <img src="assets/imgs/slider/logo/panasonic.svg" alt="Web3School" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
                         <a href="#">
-                            <img src="assets/imgs/slider/logo/vaio.svg" alt="jobBox" />
+                            <img src="assets/imgs/slider/logo/vaio.svg" alt="Web3School" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
                         <a href="#">
-                            <img src="assets/imgs/slider/logo/sharp.svg" alt="jobBox" />
+                            <img src="assets/imgs/slider/logo/sharp.svg" alt="Web3School" />
                         </a>
                     </SwiperSlide>
                 </Swiper>

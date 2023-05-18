@@ -22,7 +22,7 @@ const TestimonialSlider2 = () => {
                         <div className="card-review-1">
                             <div className="image-review">
                                 {" "}
-                                <img src="assets/imgs/page/homepage4/user.png" alt="jobBox" />
+                                <img src="assets/imgs/page/homepage4/user.png" alt="Web3School" />
                             </div>
                             <div className="review-info">
                                 <div className="review-name">
@@ -31,7 +31,7 @@ const TestimonialSlider2 = () => {
                                 </div>
                                 <div className="review-rating">
                                     {" "}
-                                    <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" />
+                                    <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" />
                                 </div>
                                 <div className="review-comment">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid unt. Labore et dolore nostrud temp exercitation.</div>
                             </div>
@@ -41,7 +41,7 @@ const TestimonialSlider2 = () => {
                         <div className="card-review-1">
                             <div className="image-review">
                                 {" "}
-                                <img src="assets/imgs/page/homepage4/user2.png" alt="jobBox" />
+                                <img src="assets/imgs/page/homepage4/user2.png" alt="Web3School" />
                             </div>
                             <div className="review-info">
                                 <div className="review-name">
@@ -50,7 +50,7 @@ const TestimonialSlider2 = () => {
                                 </div>
                                 <div className="review-rating">
                                     {" "}
-                                    <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" />
+                                    <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" />
                                 </div>
                                 <div className="review-comment">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid unt. Labore et dolore nostrud temp exercitation.</div>
                             </div>
@@ -60,7 +60,7 @@ const TestimonialSlider2 = () => {
                         <div className="card-review-1">
                             <div className="image-review">
                                 {" "}
-                                <img src="assets/imgs/page/homepage4/user3.png" alt="jobBox" />
+                                <img src="assets/imgs/page/homepage4/user3.png" alt="Web3School" />
                             </div>
                             <div className="review-info">
                                 <div className="review-name">
@@ -69,7 +69,7 @@ const TestimonialSlider2 = () => {
                                 </div>
                                 <div className="review-rating">
                                     {" "}
-                                    <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" />
+                                    <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" />
                                 </div>
                                 <div className="review-comment">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid unt. Labore et dolore nostrud temp exercitation.</div>
                             </div>
@@ -79,7 +79,7 @@ const TestimonialSlider2 = () => {
                         <div className="card-review-1">
                             <div className="image-review">
                                 {" "}
-                                <img src="assets/imgs/page/homepage4/user4.png" alt="jobBox" />
+                                <img src="assets/imgs/page/homepage4/user4.png" alt="Web3School" />
                             </div>
                             <div className="review-info">
                                 <div className="review-name">
@@ -88,7 +88,7 @@ const TestimonialSlider2 = () => {
                                 </div>
                                 <div className="review-rating">
                                     {" "}
-                                    <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" />
+                                    <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" />
                                 </div>
                                 <div className="review-comment">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid unt. Labore et dolore nostrud temp exercitation.</div>
                             </div>
@@ -98,7 +98,7 @@ const TestimonialSlider2 = () => {
                         <div className="card-review-1">
                             <div className="image-review">
                                 {" "}
-                                <img src="assets/imgs/page/homepage4/user.png" alt="jobBox" />
+                                <img src="assets/imgs/page/homepage4/user.png" alt="Web3School" />
                             </div>
                             <div className="review-info">
                                 <div className="review-name">
@@ -107,7 +107,7 @@ const TestimonialSlider2 = () => {
                                 </div>
                                 <div className="review-rating">
                                     {" "}
-                                    <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" />
+                                    <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" /> <img src="assets/imgs/template/icons/star.svg" alt="Web3School" />
                                 </div>
                                 <div className="review-comment">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid unt. Labore et dolore nostrud temp exercitation.</div>
                             </div>

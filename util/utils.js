@@ -1,6 +1,6 @@
 const baseUrl = process.env.BASE_URL
 
-console.log(baseUrl, "baseurl")
+
 async function fetchQuery(path, params = null) {
   let url
   if (params !== null) {
@@ -10,7 +10,7 @@ async function fetchQuery(path, params = null) {
   }
   const response = await fetch(`${url}`)
   const data = await response.json()
-  console.log(url, data, "baseurl")
+  
   return data
 }
 export { baseUrl, fetchQuery }
