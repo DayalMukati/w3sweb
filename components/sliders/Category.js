@@ -2,18 +2,17 @@ import Link from "next/link";
 import SwiperCore, { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+
 SwiperCore.use([Navigation]);
 
 const data = [
     {
         img: "img-big1.png",
-        title: "MasterClasses",
-        count: 3
+        title: "MasterClasses"
     },
     {
         img: "img-big2.png",
-        title: "WorkShops",
-        count: 35
+        title: "WorkShops"
     },
     {
         img: "img-big3.png",
@@ -72,14 +71,12 @@ const CategorySlider4 = () => {
                         <SwiperSlide key={i}>
                             <div className="swiper-slide hover-up">
                                 <div className="card-grid-5 card-category hover-up" style={{ backgroundImage: `url(assets/imgs/page/homepage2/${item.img})` }}>
-                                    <Link legacyBehavior href="/learn">
+                                    <Link legacyBehavior href="/programmes">
                                         <a>
                                             <div className="box-cover-img">
                                                 <div className="content-bottom">
                                                     <h6 className="color-white mb-5">{item.title}</h6>
                                                     <p className="color-white font-xs">
-                                                        <span>{item.count}</span>
-                                                        <span> Available</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -97,5 +94,6 @@ const CategorySlider4 = () => {
         </>
     );
 };
+
 
 export default CategorySlider4;

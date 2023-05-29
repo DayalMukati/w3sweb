@@ -40,7 +40,6 @@ export default function Event({programme}) {
 
 
     export async function getStaticProps({ params }) {
-        console.log(params, "params")
         const data = await fetchQuery('programmes', `${params.programmeId}`)
         const programme = data.data;
         return {
@@ -52,7 +51,6 @@ export default function Event({programme}) {
     
     export async function getStaticPaths() {
         const programmes = await fetchQuery('programmes')
-        console.log(programmes, "events in eventid")
         const paths = programmes.data.map((programme) => {
             return {
                 params: { programmeId: String(programme.attributes.slug) }

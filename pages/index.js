@@ -5,6 +5,7 @@ import Layout from "../components/Layout/Layout";
 import BrandSlider2 from "./../components/sliders/Brand2";
 import CategoryTab2 from "../components/elements/CategoryTab2";
 import CategorySlider1 from "../components/sliders/Category";
+import { fetchQuery } from "../util/utils"
 
 export default function Home() {
   return (
@@ -19,8 +20,8 @@ export default function Home() {
                   <div className="block-banner text-center pb-40 pt-40">
                     <h1 className="heading-banner wow animate__animated animate__fadeInUp">
                       Learn <span className="color-brand-2">Web3 </span>
-                      Free
-                      <br className="d-none d-lg-block" />
+                      Free 
+                      <br></br><br className="d-none d-lg-block" />
                       The Future of the Internet
                     </h1>
                     <p className="font-lg color-text-paragraph mt-20">
@@ -93,8 +94,8 @@ export default function Home() {
                                     <div className="mt-40 pr-50 text-md-lh28 wow animate__animated animate__fadeInUp">Check out upcomimg Masterclasses, Workshops and Fellowship programs.</div>
                                     <div className="mt-40">
                                         <div className="wow animate__animated animate__fadeInUp">
-                                            <Link legacyBehavior href="#events">
-                                                <a className="btn btn-default">Upcomimg Learning Series</a>
+                                            <Link legacyBehavior href="/programmes">
+                                                <a className="btn btn-default">Upcomimg Learning Programmes</a>
                                             </Link>
 
                                             <Link legacyBehavior href="/page-about">
@@ -177,7 +178,7 @@ export default function Home() {
                                         <h2 className="color-black mb-20">Explore Our Learning Series</h2>
                                         <p className="color-black mb-30">Search and connect with the right candidates faster. Tell us what you are looking for and we will get to work for you.</p>
                                         <div className="mt-20">
-                                            <a className="btn btn-brand-1 btn-icon-more hover-up">Explore</a>
+                                            <a className="btn btn-brand-1 btn-icon-more hover-up" href="/programmes">Explore</a>
                                         </div>
                                     </div>
                                 </div>
@@ -212,7 +213,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* <section className="section-box mt-30">
+        <section className="section-box mt-30">
                         <div className="container">
                             <div className="text-start">
                                 <h2 className="section-title mb-10 wow animate__animated animate__fadeInUp">Sharing Knowledge with Masterclasses.</h2>
@@ -222,7 +223,7 @@ export default function Home() {
                                 <CategoryTab2 />
                             </div>
                         </div>
-                    </section> */}
+                    </section>
 
         
       </Layout>
